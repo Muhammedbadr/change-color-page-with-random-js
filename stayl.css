@@ -1,0 +1,22 @@
+*{margin: 0;
+    padding: 0;}
+    body{
+height: 100vh;
+width: 100%;
+}
+#change{
+    position: fixed; /* or absolute, depending on your layout */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: aqua;
+    padding: 25px;
+    outline: none;
+    border-radius: 10px;
+    border: 3px solid white;
+    cursor: pointer;
+    font-size: 20px;
+
+
+        box-shadow: 0px 5px 4px rgb(255, 255, 255);
+}    
